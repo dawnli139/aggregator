@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Collect
-        run: python -u subscribe/collect.py --all --overwrite --url "http://www.apple.com/library/test/success.html" --delay 300
+        run: python -u subscribe/collect.py --all --overwrite --url --skip
 
       - name: Timestamp
         run: date
