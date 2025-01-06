@@ -65,7 +65,7 @@ jobs:
           fi
 
       - name: Refresh
-        run: python -u subscribe/collect.py --all --refresh --overwrite --url "https://www.baidu.com" --delay 300
+        run: python -u subscribe/collect.py --all --refresh --overwrite --url "http://www.apple.com/library/test/success.html" --delay 300
 
       - name: Timestamp
         run: date
